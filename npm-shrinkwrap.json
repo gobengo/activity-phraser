@@ -1,0 +1,11 @@
+{
+  "name": "activity-phraser",
+  "version": "0.0.0-pre.4",
+  "dependencies": {
+    "through2": {
+      "version": "0.5.1",
+      "from": "through2@^0.5.1",
+      "resolved": "https://github.com/gobengo/through2/archive/master.tar.gz"
+    }
+  }
+}
