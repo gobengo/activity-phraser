@@ -19,8 +19,6 @@ phraser.phrase = function (activity) {
  * verb -> string
  */
 phraser.verb = function phraseVeb(verb) {
-  if (verb === 'verb') debugger
-    ;
   var verbText = (typeof verb === 'string' ? verb : String(verb.displayName)).toLowerCase();
   switch (verbText) {
     case 'post':
