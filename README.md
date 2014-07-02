@@ -21,3 +21,16 @@ assert.equal(phrase, 'ben posted activity-phraser');
 * `require('activity-phraser').object(activity.object)` - Phrase just the object
     - `require('activity-phraser').object[type](activity.object)` - Phrase a partciular objectType. e.g. 'collection', 'message'
 
+## Example
+
+[example.js](./example.js) will phrase infinity [activity-mocks](https://github.com/gobengo/activity-mocks) for you and pipe to stdout.
+
+```
+Joe posted "Used Tesla Roadster"
+Martin Smith posted "Why I love Activity Streams"
+Martin Smith posted a Photo
+urn:example:person:martin posted a link
+Bob Doe posted the message "This is a comment post."
+site 222 verb "My Collection"
+acct:joe@example.org posted a link
+```
